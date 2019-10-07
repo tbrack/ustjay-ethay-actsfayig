@@ -1,7 +1,7 @@
 import os
 
 import requests
-from flask import Flask, send_file, Response, render_template_string
+from flask import Flask,  render_template_string
 from bs4 import BeautifulSoup
 
 app = Flask(__name__)
